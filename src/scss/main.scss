@@ -1,0 +1,67 @@
+/****************
+Custom content layout for specific pages;
+Do all overrides for specific pages here.
+*****************/
+
+.tnfcustom {
+  h2 {
+    font-size: 1.6rem;
+  }
+  p {
+    @media (min-width: $small) {
+      font-size: 1em;
+    }
+    @media (min-width: $medium) {
+      font-size: 1.23em;
+    }
+  }
+
+  .button {
+    font-size: 1.3em;
+    @media (min-width: $small) {
+      font-size: 1.4em;
+    }
+  }
+ .fbwrapper{
+
+    padding-top:62px;
+  }
+
+  
+
+ 
+  span.bold {
+    font-weight: 500;
+    font-size: 1.1em;
+    @media (min-width: $small) {
+      font-size: 1.2em;
+      letter-spacing: normal;
+    }
+  }
+
+/****************
+* Sections on page 
+****************/
+  .nf-sect-1, .nf-sect-6 {
+    @media (max-width: $small - 1 ){
+
+    
+    .iwo-visual{
+      padding-bottom: calc(334/411 * 100%)
+    }
+  }
+  }
+  .nf-sect-2{
+    padding-top: 2em;
+  }
+  .nf-sect-6{
+    .iwo-visual{
+      @media (min-width: $small){
+      padding-bottom:  31.225%;
+      }
+    }
+    
+  }
+ 
+
+}
