@@ -49,7 +49,8 @@ Basic structure
 [Component:StickyNav](#stickynav)
 [Component:ImageWithOverlay](#imagewithoverlay)
 
-####Layout: FlexContainer
+#### Layout: FlexContainer
+
 Wraps all containing components with section tag that contains a flexbox div.
 Use the components property array to add desired components and stylize with flexbox attributes
 ```
@@ -67,7 +68,9 @@ Use the components property array to add desired components and stylize with fle
 Note: This could be abstracted further and flexbox could be set as defautl start to all components. 
 This should replace "Hero" component as a Hero is really just a fullbleed flexbox with  and Image With Overlay component.
 
-####Component: StickyNav
+
+#### Component: StickyNav
+
 Creates sticky subnav with jump links to anchor links throughout page
 Will automatically add names from components that contain valid anchor properties.
 The title of the link is pulled from each registerd component's "name" property.
@@ -86,7 +89,8 @@ links: [
 ]
 ```
 
-####Component: ImageWithOverlay
+#### Component: ImageWithOverlay
+
 Creates a basic image with html overlay
 ```
 {
@@ -177,6 +181,7 @@ srcs: [
     }
     ],
 ```
+##### Video as background of Image with Overlay
 
 Videos as backgrounds can be added by using the YOURFILENAME-movie-m,
 A video tag will be created using: YOURFILENAME
